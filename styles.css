@@ -1104,7 +1104,24 @@ footer p {
     margin-top: 30px;
   }
   .contactFormContainer form input,
-  .contactFormContainer form textarea {
+  .contactFormConta .navItemName {
+    display: none;
+  }
+  .sideMenu:hover {
+    width: 220px;
+  }
+  .sideMenu:hover .navItemName {
+    display: block;
+  }iner form textarea {
     max-width: 380px;
+  }
+   .navItemName {
+    display: none;
+  }
+  .sideMenu:hover {
+    width: 120px;
+  }
+  .sideMenu:hover .navItemName {
+    display: block;
   }
 }
