@@ -610,6 +610,8 @@ header .heroDescription .socialsResume .resumeLink:focus {
 
 .aboutContainer p span {
   color: #000055;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 .skillsContainer {
