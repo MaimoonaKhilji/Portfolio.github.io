@@ -1033,13 +1033,26 @@ footer p {
 /**********************/
 /*   MAX WIDTH 767PX  */
 /**********************/
+
 @media (max-width: 767px) {
   .innerWrapper {
     padding: 0 15px;
   }
-  header .heroImageContainer img {
-    width: 250px;
-    height: 250px;
+ 
+  header .heroDescription h1{
+    line-height: 1.3;
+    font-size: 2.8rem;
+    margin-left: 11%;
+  }
+  header .heroDescription .smallBio{
+    font-size: 1rem;
+    margin-left: 38%;
+    text-align:left;
+  }
+  header .heroDescription .socialsResume {
+    font-size: 1rem;
+    margin-left: 38%;
+    text-align:left;
   }
   .sectionContainer {
     background-color: transparent;
