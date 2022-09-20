@@ -236,7 +236,7 @@ textarea {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family:'Quicksand', sans-serif;;
   font-size: 125%;
   background: #ffffff;
   display: -webkit-box;
@@ -506,15 +506,17 @@ header .heroDescription {
 
 header .heroDescription .greeting {
   letter-spacing: 1px;
-  font-size: 1rem;
+  font-size: 1.5rem;
   line-height: 1.2;
 }
 
 header .heroDescription h1 {
   font-size: 4.8rem;
-    letter-spacing: -3px;
-    margin: 40px 0;
-    width: 620px;
+  letter-spacing: -3px;
+  margin: 20px 0;
+  width: 620px;
+  height: 62px;
+  font-weight: bold;
 }
 
 header .heroDescription h1 span {
@@ -523,7 +525,7 @@ header .heroDescription h1 span {
 
 header .heroDescription .smallBio {
   letter-spacing: 1px;
-  color: #5F6F81;
+  color: #3f4552;
   font-size: 1rem;
   min-width: 250px;
   line-height: 1.4;
@@ -531,7 +533,8 @@ header .heroDescription .smallBio {
 
 header .heroDescription .smallBio span {
   color: #000055;
-  font-size: 1.1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
 header .heroDescription .socialsResume {
@@ -842,7 +845,7 @@ header .heroDescription .socialsResume .resumeLink:focus {
   transition: all 0.3s ease-in;
   padding: 11px 20px;
   font-size: 1rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Quicksand', sans-serif;;
   letter-spacing: 1px;
   width: 100%;
 }
@@ -864,7 +867,7 @@ header .heroDescription .socialsResume .resumeLink:focus {
   letter-spacing: 1px;
   color: #6c757d;
   opacity: 1;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Quicksand', sans-serif;;
 }
 
 .contactFormContainer form :-ms-input-placeholder {
@@ -872,7 +875,7 @@ header .heroDescription .socialsResume .resumeLink:focus {
   letter-spacing: 1px;
   color: #6c757d;
   opacity: 1;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Quicksand', sans-serif;;
 }
 
 .contactFormContainer form ::-ms-input-placeholder {
@@ -880,7 +883,7 @@ header .heroDescription .socialsResume .resumeLink:focus {
   letter-spacing: 1px;
   color: #6c757d;
   opacity: 1;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Quicksand', sans-serif;;
 }
 
 .contactFormContainer form ::placeholder {
@@ -888,7 +891,7 @@ header .heroDescription .socialsResume .resumeLink:focus {
   letter-spacing: 1px;
   color: #6c757d;
   opacity: 1;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Quicksand', sans-serif;;
 }
 
 .contactFormContainer form .subjectInput,
@@ -1104,24 +1107,7 @@ footer p {
     margin-top: 30px;
   }
   .contactFormContainer form input,
-  .contactFormConta .navItemName {
-    display: none;
-  }
-  .sideMenu:hover {
-    width: 220px;
-  }
-  .sideMenu:hover .navItemName {
-    display: block;
-  }iner form textarea {
+  .contactFormContainer form textarea {
     max-width: 380px;
-  }
-   .navItemName {
-    display: none;
-  }
-  .sideMenu:hover {
-    width: 120px;
-  }
-  .sideMenu:hover .navItemName {
-    display: block;
   }
 }
