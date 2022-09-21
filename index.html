@@ -357,6 +357,29 @@
             </article>
       </div></section>
 
+<?php
+      if(isset($_POST['submit'])){
+          $to = "maimoon.khilji@gmail.com";
+      
+      
+      
+          $nameInput = $_POST['nameInput'];
+          $emailInput= $_POST['emailInput'];
+          $subjectInput= $_POST['subjectInput'];
+          $messageInput= $_POST['messageInput'];
+          $headers = 'From: '.$email . "\r\n";
+      
+      
+          $messageInput = "nameInput : ".$nameInput. "\r\n" .
+            
+              "messageInput : " . $messageInput;
+          if(mail($to, $subjectInput, $messageInput , $headers)){
+              echo "Mail Sent!";
+          }else{
+               echo "Failed To Send Mail";
+          }
+      }
+      ?>
 
         <!-- Contact Section -->
         <section class="contactSection" id="contact">
@@ -386,7 +409,7 @@
             <div class="contactFormContainer">
               <h3>Contact Form</h3>
 
-              <form id="contactForm" action="mailto:maimoon.khilji@gmail.com" method="post" enctype="text/plain">
+              <form id="contactForm" action="maimoon.khilji@gmail.com" method="POST">
                   <label for="nameInput" class="srOnly"></label>
                   <input type="text" id="nameInput" name="nameInput" class="nameInput" required="" placeholder="Your Name*">
                   <label for="emailInput" class="srOnly"></label>
