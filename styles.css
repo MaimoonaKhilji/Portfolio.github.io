@@ -731,20 +731,45 @@ justify-content: center;
 }
 
 .certificateBox .certificateImageContainer img {
-  height:50px;
-  width:100px;
+  height:70px;
+  width:130px;
   border-radius: 10px;
   border: 1px  ;
   justify-content: center;
-  margin-top: 15px;
-    vertical-align: middle;
+  margin-top: 5px;
+  vertical-align: middle;
+    transition: .5s ease;
+  backface-visibility: hidden;
 }
 
 
+.certificateBox .certificateImageContainer .text {
+  background-color: #000055;
+  color: white;
+  font-size: 1rem;
+  padding: 4px 4px;
+  margin-left: 50px;
+  margin-right: -50px;
+  margin-top: -36px;
+  display: block;
+}
 
+
+.certificateBox .certificateImageContainer .middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
 .certificateBox .certificateImageContainer:hover img {
   opacity: 0.3;
 }
+.certificateBox .certificateImageContainer:hover .middle {
+  opacity: 1;
+}
+
 
 .button {
   background-color: #000055;
@@ -1150,10 +1175,22 @@ footer p {
     border-radius: 40px;
     letter-spacing: 2px;
   }
-
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+  }
+  
   .sectionContainer {
     background-color: transparent;
     padding: 0;
+  }
+
+  .certificateBox {
+    margin-left: 62px;
+
   }
   .aboutContainer {
     line-height: 1.3;
