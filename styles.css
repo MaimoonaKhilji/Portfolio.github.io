@@ -743,31 +743,9 @@ justify-content: center;
 }
 
 
-.certificateBox .certificateImageContainer .text {
-  background-color: #000055;
-  color: white;
-  font-size: 1rem;
-  padding: 4px 4px;
-  margin-left: 50px;
-  margin-right: -50px;
-  margin-top: -36px;
-  display: block;
-}
 
-
-.certificateBox .certificateImageContainer .middle {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
 .certificateBox .certificateImageContainer:hover img {
   opacity: 0.3;
-}
-.certificateBox .certificateImageContainer:hover .middle {
-  opacity: 1;
 }
 
 
