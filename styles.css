@@ -631,7 +631,7 @@ header .heroDescription .socialsResume .resumeLink:focus {
 
 .skillsGrid li {
   background-color: white;
-  padding: 10px;
+  padding: 15px;
   border-radius: 15px;
   width: 100px;
   -webkit-transition: all 0.3s ease-in;
